@@ -40,20 +40,22 @@ img {
     --container-padding-inline: 13%;
     --footer-padding-inline: 10%;
 
-    @media screen and (max-width: 768px) {
-        --container-padding-inline: 6%;
-        --footer-padding-inline: 6%;
-    }
-
-    @media screen and (max-width: 576px) {
-
-        --container-padding-inline: 15px;
-        --footer-padding-inline: 15px;
-    }
 
 }
 
+@media screen and (max-width: 768px) {
+    :root {
+        --container-padding-inline: 6%;
+        --footer-padding-inline: 6%;
+    }
+}
 
+@media screen and (max-width: 576px) {
+    :root {
+        --container-padding-inline: 15px;
+        --footer-padding-inline: 15px;
+    }
+}
 
 html {
     font-family: "Inter", sans-serif;
