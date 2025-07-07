@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 h1,
 h2,
 h3,
@@ -39,8 +35,6 @@ img {
     --dark-color: #221f20;
     --container-padding-inline: 13%;
     --footer-padding-inline: 10%;
-
-
 }
 
 @media screen and (max-width: 768px) {
